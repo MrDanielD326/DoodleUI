@@ -1,6 +1,12 @@
+import DoodleDateInput from "@/components/Doodles/DoodleDateInput";
+import Title from "@/components/heading/Title";
+
 const DateInput = () => {
   return (
-    <span> Date Input </span>
+    <>
+      <Title> DateInput </Title>
+      <DoodleDateInput />
+    </>
   )
 }
 

@@ -1,6 +1,12 @@
+import DoodleDatePicker from "@/components/Doodles/DoodleDatePicker";
+import Title from "@/components/heading/Title";
+
 const DatePicker = () => {
   return (
-    <span> Date Picker </span>
+    <>
+      <Title> DatePicker </Title>
+      <DoodleDatePicker />
+    </>
   )
 }
 

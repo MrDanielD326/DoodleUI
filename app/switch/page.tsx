@@ -1,6 +1,12 @@
+import DoodleSwitch from "@/components/Doodles/DoodleSwitch";
+import Title from "@/components/heading/Title";
+
 const Switch = () => {
   return (
-    <span> Switch </span>
+    <>
+      <Title> Switch </Title>
+      <DoodleSwitch />
+    </>
   )
 }
 

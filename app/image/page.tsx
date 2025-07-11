@@ -1,6 +1,12 @@
+import DoodleImage from "@/components/Doodles/DoodleImage";
+import Title from "@/components/heading/Title";
+
 const Image = () => {
   return (
-    <span> Image </span>
+    <>
+      <Title> Image </Title>
+      <DoodleImage />
+    </>
   )
 }
 

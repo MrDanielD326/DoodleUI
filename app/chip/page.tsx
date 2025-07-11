@@ -1,6 +1,12 @@
+import DoodleChip from "@/components/Doodles/DoodleChip";
+import Title from "@/components/heading/Title";
+
 const Chip = () => {
   return (
-    <span> Chip </span>
+    <>
+      <Title> Chip </Title>
+      <DoodleChip />
+    </>
   )
 }
 

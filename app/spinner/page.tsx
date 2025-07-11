@@ -1,6 +1,12 @@
+import DoodleSpinner from "@/components/Doodles/DoodleSpinner";
+import Title from "@/components/heading/Title";
+
 const Spinner = () => {
   return (
-    <span> Spinner </span>
+    <>
+      <Title> Spinner </Title>
+      <DoodleSpinner />
+    </>
   )
 }
 

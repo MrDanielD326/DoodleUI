@@ -1,6 +1,12 @@
+import DoodleDropdown from "@/components/Doodles/DoodleDropdown";
+import Title from "@/components/heading/Title";
+
 const Dropdown = () => {
   return (
-    <span> Dropdown </span>
+    <>
+      <Title> Dropdown </Title>
+      <DoodleDropdown />
+    </>
   )
 }
 

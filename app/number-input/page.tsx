@@ -1,6 +1,12 @@
+import DoodleNumberInput from "@/components/Doodles/DoodleNumberInput";
+import Title from "@/components/heading/Title";
+
 const NumberInput = () => {
   return (
-    <span> Number Input </span>
+    <>
+      <Title> NumberInput </Title>
+      <DoodleNumberInput />
+    </>
   )
 }
 

@@ -1,6 +1,12 @@
+import DoodleTable from "@/components/Doodles/DoodleTable";
+import Title from "@/components/heading/Title";
+
 const Table = () => {
   return (
-    <span> Table </span>
+    <>
+      <Title> Table </Title>
+      <DoodleTable />
+    </>
   )
 }
 

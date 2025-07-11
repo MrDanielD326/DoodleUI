@@ -1,6 +1,12 @@
+import DoodleDrawer from "@/components/Doodles/DoodleDrawer";
+import Title from "@/components/heading/Title";
+
 const Drawer = () => {
   return (
-    <span> Drawer </span>
+    <>
+      <Title> Drawer </Title>
+      <DoodleDrawer />
+    </>
   )
 }
 

@@ -1,6 +1,12 @@
+import DoodleDateRangePicker from "@/components/Doodles/DoodleRangePicker";
+import Title from "@/components/heading/Title";
+
 const DateRangePicker = () => {
   return (
-    <span> Date Range Picker </span>
+    <>
+      <Title> DateRangePicker </Title>
+      <DoodleDateRangePicker />
+    </>
   )
 }
 

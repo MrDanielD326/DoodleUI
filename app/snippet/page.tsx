@@ -1,6 +1,12 @@
+import DoodleSnippet from "@/components/Doodles/DoodleSnippet";
+import Title from "@/components/heading/Title";
+
 const Snippet = () => {
   return (
-    <span> Snippet </span>
+    <>
+      <Title> Snippet </Title>
+      <DoodleSnippet />
+    </>
   )
 }
 

@@ -1,6 +1,12 @@
+import DoodleNavbar from "@/components/Doodles/DoodleNavbar";
+import Title from "@/components/heading/Title";
+
 const Navbar = () => {
   return (
-    <span> Navbar </span>
+    <>
+      <Title> Navbar </Title>
+      <DoodleNavbar />
+    </>
   )
 }
 

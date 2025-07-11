@@ -1,6 +1,12 @@
+import DoodleBadge from "@/components/Doodles/DoodleBadge";
+import Title from "@/components/heading/Title";
+
 const Badge = () => {
   return (
-    <span> Badge </span>
+    <>
+      <Title> Badge </Title>
+      <DoodleBadge />
+    </>
   )
 }
 

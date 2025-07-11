@@ -1,6 +1,12 @@
+import DoodleSpacer from "@/components/Doodles/DoodleSpacer";
+import Title from "@/components/heading/Title";
+
 const Spacer = () => {
   return (
-    <span> Spacer </span>
+    <>
+      <Title> Spacer </Title>
+      <DoodleSpacer />
+    </>
   )
 }
 

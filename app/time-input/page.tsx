@@ -1,6 +1,12 @@
+import DoodleTimeInput from "@/components/Doodles/DoodleTimeInput";
+import Title from "@/components/heading/Title";
+
 const TimeInput = () => {
   return (
-    <span> Time Input </span>
+    <>
+      <Title> TimeInput </Title>
+      <DoodleTimeInput />
+    </>
   )
 }
 

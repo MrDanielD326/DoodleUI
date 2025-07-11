@@ -1,6 +1,12 @@
+import DoodleRadioGroup from "@/components/Doodles/DoodleRadioGroup";
+import Title from "@/components/heading/Title";
+
 const RadioGroup = () => {
   return (
-    <span> Radio Group </span>
+    <>
+      <Title> RadioGroup </Title>
+      <DoodleRadioGroup />
+    </>
   )
 }
 

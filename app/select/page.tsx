@@ -1,6 +1,12 @@
+import DoodleSelect from "@/components/Doodles/DoodleSelect";
+import Title from "@/components/heading/Title";
+
 const Select = () => {
   return (
-    <span> Select </span>
+    <>
+      <Title> Select </Title>
+      <DoodleSelect />
+    </>
   )
 }
 

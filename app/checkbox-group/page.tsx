@@ -1,6 +1,12 @@
+import DoodleCheckboxGroup from "@/components/Doodles/DoodleCheckboxGroup";
+import Title from "@/components/heading/Title";
+
 const CheckboxGroup = () => {
   return (
-    <span> Checkbox Group </span>
+    <>
+      <Title> CheckboxGroup </Title>
+      <DoodleCheckboxGroup />
+    </>
   )
 }
 

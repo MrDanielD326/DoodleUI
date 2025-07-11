@@ -20,7 +20,7 @@ export const Navbar = () => {
           <NavbarBrand as="li" className="gap-1 max-w-fit">
             <NextLink className="flex justify-start items-center gap-1" href="/">
               <img src="/brandLogo.png" alt="Doodle UI Logo" className="h-4 w-auto" />
-              <p className="font-bold text-inherit text-sm">Doodle UI</p>
+              <p className="font-bold text-inherit text-sm"> &nbsp; Doodle UI </p>
             </NextLink>
           </NavbarBrand>
         </NavbarContent>

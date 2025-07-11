@@ -1,6 +1,12 @@
+import DoodleCard from "@/components/Doodles/DoodleCard";
+import Title from "@/components/heading/Title";
+
 const Card = () => {
   return (
-    <span> Card </span>
+    <>
+      <Title> Card </Title>
+      <DoodleCard />
+    </>
   )
 }
 

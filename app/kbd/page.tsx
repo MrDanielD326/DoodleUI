@@ -1,7 +1,13 @@
-const Kbd = () => {
+import DoodleKBD from "@/components/Doodles/DoodleKBD";
+import Title from "@/components/heading/Title";
+
+const KBD = () => {
   return (
-    <span> Kbd </span>
+    <>
+      <Title> KBD </Title>
+      <DoodleKBD />
+    </>
   )
 }
 
-export default Kbd; 
+export default KBD; 

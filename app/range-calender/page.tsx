@@ -1,6 +1,12 @@
+import DoodleRangeCalender from "@/components/Doodles/DoodleRangeCalender";
+import Title from "@/components/heading/Title";
+
 const RangeCalender = () => {
   return (
-    <span> Range Calender </span>
+    <>
+      <Title> RangeCalender </Title>
+      <DoodleRangeCalender />
+    </>
   )
 }
 

@@ -1,6 +1,12 @@
+import DoodleTextarea from "@/components/Doodles/DoodleTextarea";
+import Title from "@/components/heading/Title";
+
 const Textarea = () => {
   return (
-    <span> Textarea </span>
+    <>
+      <Title> Textarea </Title>
+      <DoodleTextarea />
+    </>
   )
 }
 

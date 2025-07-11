@@ -1,6 +1,12 @@
+import DoodlePopover from "@/components/Doodles/DoodlePopover";
+import Title from "@/components/heading/Title";
+
 const Popover = () => {
   return (
-    <span> Popover </span>
+    <>
+      <Title> Popover </Title>
+      <DoodlePopover />
+    </>
   )
 }
 

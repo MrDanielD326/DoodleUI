@@ -1,6 +1,12 @@
+import DoodleModal from "@/components/Doodles/DoodleModal";
+import Title from "@/components/heading/Title";
+
 const Modal = () => {
   return (
-    <span> Modal </span>
+    <>
+      <Title> Modal </Title>
+      <DoodleModal />
+    </>
   )
 }
 

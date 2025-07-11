@@ -1,6 +1,12 @@
+import DoodleProgress from "@/components/Doodles/DoodleProgress";
+import Title from "@/components/heading/Title";
+
 const Progress = () => {
   return (
-    <span> Progress </span>
+    <>
+      <Title> Progress </Title>
+      <DoodleProgress />
+    </>
   )
 }
 

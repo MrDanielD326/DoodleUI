@@ -1,6 +1,12 @@
+import DoodleCircularProgress from "@/components/Doodles/DoodleCircularProgress";
+import Title from "@/components/heading/Title";
+
 const CircularProgress = () => {
   return (
-    <span> Circular Progress </span>
+    <>
+      <Title> CircularProgress </Title>
+      <DoodleCircularProgress />
+    </>
   )
 }
 

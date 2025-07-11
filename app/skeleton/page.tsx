@@ -1,6 +1,12 @@
+import DoodleSkeleton from "@/components/Doodles/DoodleSkeleton";
+import Title from "@/components/heading/Title";
+
 const Skeleton = () => {
   return (
-    <span> Skeleton </span>
+    <>
+      <Title> Skeleton </Title>
+      <DoodleSkeleton />
+    </>
   )
 }
 

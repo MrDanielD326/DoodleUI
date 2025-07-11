@@ -1,6 +1,12 @@
+import DoodleListBox from "@/components/Doodles/DoodleListbox";
+import Title from "@/components/heading/Title";
+
 const ListBox = () => {
   return (
-    <span> ListBox </span>
+    <>
+      <Title> ListBox </Title>
+      <DoodleListBox />
+    </>
   )
 }
 

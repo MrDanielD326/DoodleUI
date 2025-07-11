@@ -1,7 +1,12 @@
+import DoodleAlert from "@/components/Doodles/DoodleAlert";
+import Title from "@/components/heading/Title";
 
 const Alert = () => {
   return (
-    <span> Alert </span>
+    <>
+      <Title> Alert </Title>
+      <DoodleAlert />
+    </>
   )
 }
 

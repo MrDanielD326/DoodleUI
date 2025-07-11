@@ -1,6 +1,12 @@
+import DoodleToast from "@/components/Doodles/DoodleToast";
+import Title from "@/components/heading/Title";
+
 const Toast = () => {
   return (
-    <span> Toast </span>
+    <>
+      <Title> Toast </Title>
+      <DoodleToast />
+    </>
   )
 }
 

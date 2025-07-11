@@ -1,6 +1,12 @@
+import DoodleAutoComplete from "@/components/Doodles/DoodleAutoComplete";
+import Title from "@/components/heading/Title";
+
 const AutoComplete = () => {
   return (
-    <span> AutoComplete </span>
+    <>
+      <Title> AutoComplete </Title>
+      <DoodleAutoComplete />
+    </>
   )
 }
 

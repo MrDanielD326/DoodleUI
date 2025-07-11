@@ -1,6 +1,12 @@
+import DoodleUser from "@/components/Doodles/DoodleUser";
+import Title from "@/components/heading/Title";
+
 const User = () => {
   return (
-    <span> User </span>
+    <>
+      <Title> User </Title>
+      <DoodleUser />
+    </>
   )
 }
 

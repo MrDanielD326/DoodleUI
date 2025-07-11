@@ -1,6 +1,12 @@
+import DoodleCheckbox from "@/components/Doodles/DoodleCheckbox";
+import Title from "@/components/heading/Title";
+
 const Checkbox = () => {
   return (
-    <span> Checkbox </span>
+    <>
+      <Title> Checkbox </Title>
+      <DoodleCheckbox />
+    </>
   )
 }
 

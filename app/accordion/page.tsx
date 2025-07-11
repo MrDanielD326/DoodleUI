@@ -1,6 +1,12 @@
+import DoodleAccordion from "@/components/Doodles/DoodleAccordion";
+import Title from "@/components/heading/Title";
+
 const Accordion = () => {
   return (
-    <span> Accordion </span>
+    <>
+      <Title> Accordion </Title>
+      <DoodleAccordion />
+    </>
   )
 }
 

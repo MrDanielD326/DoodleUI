@@ -1,6 +1,12 @@
+import DoodleLink from "@/components/Doodles/DoodleLink";
+import Title from "@/components/heading/Title";
+
 const Link = () => {
   return (
-    <span> Link </span>
+    <>
+      <Title> Link </Title>
+      <DoodleLink />
+    </>
   )
 }
 

@@ -1,6 +1,12 @@
+import DoodleBreadcrumbs from "@/components/Doodles/DoodleBreadcrumbs";
+import Title from "@/components/heading/Title";
+
 const Breadcrumbs = () => {
   return (
-    <span> Breadcrumbs </span>
+    <>
+      <Title> BreadCrumbs </Title>
+      <DoodleBreadcrumbs />
+    </>
   )
 }
 

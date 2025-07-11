@@ -1,6 +1,12 @@
+import DoodleAvatar from "@/components/Doodles/DoodleAvatar";
+import Title from "@/components/heading/Title";
+
 const Avatar = () => {
   return (
-    <span> Avatar </span>
+    <>
+      <Title> Avatar </Title>
+      <DoodleAvatar />
+    </>
   )
 }
 

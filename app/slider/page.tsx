@@ -1,6 +1,12 @@
+import DoodleSlider from "@/components/Doodles/DoodleSlider";
+import Title from "@/components/heading/Title";
+
 const Slider = () => {
   return (
-    <span> Slider </span>
+    <>
+      <Title> Slider </Title>
+      <DoodleSlider />
+    </>
   )
 }
 

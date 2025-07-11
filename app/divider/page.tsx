@@ -1,6 +1,12 @@
+import DoodleDivider from "@/components/Doodles/DoodleDivider";
+import Title from "@/components/heading/Title";
+
 const Divider = () => {
   return (
-    <span> Divider </span>
+    <>
+      <Title> Divider </Title>
+      <DoodleDivider />
+    </>
   )
 }
 

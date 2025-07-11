@@ -1,6 +1,12 @@
+import DoodleTooltip from "@/components/Doodles/DoodleTooltip";
+import Title from "@/components/heading/Title";
+
 const Tooltip = () => {
   return (
-    <span> Tooltip </span>
+    <>
+      <Title> Tooltip </Title>
+      <DoodleTooltip />
+    </>
   )
 }
 

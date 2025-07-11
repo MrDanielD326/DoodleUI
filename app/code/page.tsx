@@ -1,6 +1,12 @@
+import DoodleCode from "@/components/Doodles/DoodleCode";
+import Title from "@/components/heading/Title";
+
 const Code = () => {
   return (
-    <span> Code </span>
+    <>
+      <Title> Code </Title>
+      <DoodleCode />
+    </>
   )
 }
 
