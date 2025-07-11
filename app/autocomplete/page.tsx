@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const AutoComplete = () => {
   return (
     <>
-      <Title> AutoComplete </Title>
+      <Title> Auto Complete </Title>
       <DoodleAutoComplete />
     </>
   )

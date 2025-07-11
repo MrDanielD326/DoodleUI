@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const RadioGroup = () => {
   return (
     <>
-      <Title> RadioGroup </Title>
+      <Title> Radio Group </Title>
       <DoodleRadioGroup />
     </>
   )

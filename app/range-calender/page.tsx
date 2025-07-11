@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const RangeCalender = () => {
   return (
     <>
-      <Title> RangeCalender </Title>
+      <Title> Range Calender </Title>
       <DoodleRangeCalender />
     </>
   )

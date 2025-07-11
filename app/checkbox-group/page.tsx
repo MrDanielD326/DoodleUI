@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const CheckboxGroup = () => {
   return (
     <>
-      <Title> CheckboxGroup </Title>
+      <Title> Checkbox Group </Title>
       <DoodleCheckboxGroup />
     </>
   )

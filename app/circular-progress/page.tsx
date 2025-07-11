@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const CircularProgress = () => {
   return (
     <>
-      <Title> CircularProgress </Title>
+      <Title> Circular Progress </Title>
       <DoodleCircularProgress />
     </>
   )

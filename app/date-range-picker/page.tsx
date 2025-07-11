@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const DateRangePicker = () => {
   return (
     <>
-      <Title> DateRangePicker </Title>
+      <Title> Date Range Picker </Title>
       <DoodleDateRangePicker />
     </>
   )

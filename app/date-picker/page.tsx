@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const DatePicker = () => {
   return (
     <>
-      <Title> DatePicker </Title>
+      <Title> Date Picker </Title>
       <DoodleDatePicker />
     </>
   )

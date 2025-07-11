@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const DateInput = () => {
   return (
     <>
-      <Title> DateInput </Title>
+      <Title> Date Input </Title>
       <DoodleDateInput />
     </>
   )

@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const InputOTP = () => {
   return (
     <>
-      <Title> InputOTP </Title>
+      <Title> Input OTP </Title>
       <DoodleInputOTP />
     </>
   )

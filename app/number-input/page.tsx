@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const NumberInput = () => {
   return (
     <>
-      <Title> NumberInput </Title>
+      <Title> Number Input </Title>
       <DoodleNumberInput />
     </>
   )

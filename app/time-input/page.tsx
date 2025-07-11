@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const TimeInput = () => {
   return (
     <>
-      <Title> TimeInput </Title>
+      <Title> Time Input </Title>
       <DoodleTimeInput />
     </>
   )

@@ -4,7 +4,7 @@ import Title from "@/components/heading/Title";
 const ScrollShadow = () => {
   return (
     <>
-      <Title> ScrollShadow </Title>
+      <Title> Scroll Shadow </Title>
       <DoodleScrollShadow />
     </>
   )
