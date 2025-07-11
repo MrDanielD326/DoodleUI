@@ -11,19 +11,28 @@ import { Divider } from "@heroui/react";
 export const Navbar = () => {
   return (
     <>
-      <HeroUINavbar maxWidth="xl" position="sticky" className="min-h-10 py-0">
-        <NavbarContent className="basis-1/5 sm:basis-full items-center py-0" justify="start">
-          <NavbarBrand as="li" className="gap-3 max-w-fit items-center py-0">
+      <HeroUINavbar
+        maxWidth="xl"
+        position="sticky"
+        className="min-h-0 py-0 bg-background/80 backdrop-blur-sm border-b border-divider"
+      >
+        <NavbarContent className="basis-1/5 sm:basis-full items-center" justify="start">
+          <NavbarBrand as="li" className="gap-1 max-w-fit">
             <NextLink className="flex justify-start items-center gap-1" href="/">
-              <img src="/brandLogo.png" alt="Doodle UI Logo" className="h-5 w-auto" />
-              <p className="font-bold text-inherit"> &nbsp;Doodle UI </p>
+              <img src="/brandLogo.png" alt="Doodle UI Logo" className="h-4 w-auto" />
+              <p className="font-bold text-inherit text-sm">Doodle UI</p>
             </NextLink>
           </NavbarBrand>
         </NavbarContent>
 
         <NavbarContent className="hidden sm:flex basis-1/5 sm:basis-full" justify="end">
           <NavbarItem className="hidden sm:flex gap-2">
-            <Link isExternal aria-label="Github" href={siteConfig.links.github}>
+            <Link
+              isExternal
+              aria-label="Github"
+              href={siteConfig.links.github}
+              className="p-2 rounded-lg hover:bg-default-100 transition-colors"
+            >
               <GithubIcon className="text-default-500" />
             </Link>
             <ThemeSwitch />
@@ -32,7 +41,7 @@ export const Navbar = () => {
             <Button
               isExternal
               as={Link}
-              className="text-sm font-normal text-default-600 bg-default-100"
+              className="text-sm font-medium text-default-600 bg-default-100 hover:bg-default-200"
               href={siteConfig.links.sponsor}
               startContent={<HeartFilledIcon className="text-danger" />}
               variant="flat"
@@ -44,16 +53,24 @@ export const Navbar = () => {
         </NavbarContent>
 
         <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-          <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-            <GithubIcon className="text-default-500" />
-          </Link>
-          <ThemeSwitch />
-          <NavbarMenuToggle />
+          <div className="flex items-center gap-2">
+            <Link
+              isExternal
+              aria-label="Github"
+              href={siteConfig.links.github}
+              className="p-2 rounded-lg hover:bg-default-100 transition-colors"
+            >
+              <GithubIcon className="text-default-500" />
+            </Link>
+            <ThemeSwitch />
+            <NavbarMenuToggle className="p-2 rounded-lg hover:bg-default-100 transition-colors" />
+          </div>
         </NavbarContent>
 
-        <NavbarMenu> <Sidebar forceShow /> </NavbarMenu>
+        <NavbarMenu className="bg-background/95 backdrop-blur-sm">
+          <Sidebar forceShow />
+        </NavbarMenu>
       </HeroUINavbar>
-      <Divider />
     </>
   );
 };
