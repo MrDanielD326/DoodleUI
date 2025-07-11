@@ -43,7 +43,7 @@ export const Navbar = () => {
               as={Link}
               className="text-sm font-medium text-default-600 bg-default-100 hover:bg-default-200"
               href={siteConfig.links.sponsor}
-              startContent={<HeartFilledIcon className="text-danger" />}
+              // startContent={<HeartFilledIcon className="text-danger" />}
               variant="flat"
               size="sm"
             >
